@@ -4,8 +4,8 @@
 A very lighted development tool for `atmega328p`, the flasher is [dwdebug](https://github.com/dcwbrown/dwire-debug)
 	
 ## How to install
-1. Install `AVR-Toolchain.exe`, after installed, a Environment variable will be added to the Path, such as `x:\software\AVR-Toolchain\bin`.
-2. Install two extensions in vscode: `Make support and task provider`, published by carlos-algms, `Serial Monitor`, published by Microsoft.
+  * Install `AVR-Toolchain.exe`, after installed, a Environment variable will be added to the Path, such as `x:\software\AVR-Toolchain\bin`.
+  * Install two extensions in vscode: `Make support and task provider`, published by carlos-algms, `Serial Monitor`, published by Microsoft.
 
 ## How to use
 Open the demo folder by vscode. At the left lower corner of MAKEFILE TASKS:
@@ -16,7 +16,7 @@ Open the demo folder by vscode. At the left lower corner of MAKEFILE TASKS:
   * clean: delete all files in the output folder.
   * reset: software reset of atmega328p.
   
-# Other files in the demo
+## Other files in the demo
   * serial.txt: store the COM number, which the dwdebug needed.
   * serial.bat: called by Makefile, analysis serial.txt, and get the COM number.
 	
