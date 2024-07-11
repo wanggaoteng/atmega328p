@@ -1,7 +1,8 @@
 # atmega328p
 ![image](screenshot.jpg)
 
-A very lighted development tool for `atmega328p`, the flasher is [dwdebug](https://github.com/dcwbrown/dwire-debug)
+A very lighted development tool for `atmega328p`, the flasher is [dwdebug](https://github.com/dcwbrown/dwire-debug). 
+Any improment will be greatly appreciate.
 	
 ## How to install
   * Install `AVR-Toolchain.exe`, after installed, a new value will be added to the Environment variable Path, such as `x:\software\AVR-Toolchain\bin`, this bin folder contains the toolchains for atmega328p, such as avr-gcc.exe, make.exe, dwdebug.exe. 
