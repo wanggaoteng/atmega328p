@@ -1,7 +1,7 @@
 # atmega328p
 ![image](screenshot.jpg)
 
-A very lighted development tool for `atmega328p`, the flasher is [dwdebug](https://github.com/dcwbrown/dwire-debug). 
+A very lighted development tool for `atmega328p`, the flasher is [dwdebug](https://github.com/dcwbrown/dwire-debug).   
 Any improment will be greatly appreciate.
 	
 ## How to install
