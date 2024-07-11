@@ -10,7 +10,7 @@ A very lighted development tool for `atmega328p`, the flasher is [dwdebug](https
 ## How to use
 Open the demo folder by vscode. At the left lower corner of MAKEFILE TASKS:
   * build: used for compiling, and generates .elf, .bin, etc, files in the output folder.
-  * flash: the .elf in output folder will be flashed to atmega328p.
+  * flash: the .elf file in output folder will be flashed to atmega328p.
   * debug: debug the program in assambly level. Refer to [dwdebug](https://github.com/dcwbrown/dwire-debug) for more information.
   * config: get the fuses.
   * clean: delete all files in the output folder.
@@ -20,4 +20,6 @@ Open the demo folder by vscode. At the left lower corner of MAKEFILE TASKS:
   * serial.txt: store the COM number, which the dwdebug needed.
   * serial.bat: called by Makefile, analysis serial.txt, and get the COM number.
 	
+## Note
+  * As the usb-uart converter chip is CH342K, please install the [chip driver](https://www.wch-ic.com/products/CH342.html?) to your PC.
 	
