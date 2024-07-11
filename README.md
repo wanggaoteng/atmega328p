@@ -17,6 +17,7 @@ Open the demo folder by vscode. At the left lower corner of MAKEFILE TASKS:
   * reset: software reset of atmega328p.
   
 ## Auxiliary files
+DO NOT DELETE/MODIFY ANY OF THEM.
   * serial.txt: store the COM number, which the dwdebug needed.
   * serial.bat: called by Makefile, analysis serial.txt, and get the COM number.
 	
