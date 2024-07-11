@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "io.h": "c",
+        "functions.h": "c",
+        "delay.h": "c",
+        "sfr_defs.h": "c",
+        "stdint-gcc.h": "c",
+        "stdint.h": "c",
+        "pgmspace.h": "c",
+        "usart_printf.h": "c",
+        "stdio_setup.h": "c",
+        "xprintf.h": "c",
+        "uart.h": "c",
+        "math.h": "c",
+        "cpufunc.h": "c",
+        "interrupt.h": "c",
+        "signal.h": "c",
+        "iom328p.h": "c",
+        "iom328pb.h": "c",
+        "stdarg.h": "c"
+    }
+}

@@ -1,0 +1,57 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "make",
+			"targetName": "build",
+			"makeFileRelativePath": "Makefile",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"label": "make: build",
+			"detail": "./Makefile"
+		},
+		{
+			"type": "make",
+			"targetName": "config",
+			"makeFileRelativePath": "Makefile",
+			"problemMatcher": [],
+			"label": "make: config",
+			"detail": "./Makefile"
+		},
+		{
+			"type": "make",
+			"targetName": "flash",
+			"makeFileRelativePath": "Makefile",
+			"problemMatcher": [],
+			"label": "make: flash",
+			"detail": "./Makefile"
+		},
+		{
+			"type": "make",
+			"targetName": "debug",
+			"makeFileRelativePath": "Makefile",
+			"problemMatcher": [],
+			"label": "make: debug",
+			"detail": "./Makefile"
+		},
+		{
+			"type": "make",
+			"targetName": "clean",
+			"makeFileRelativePath": "Makefile",
+			"problemMatcher": [],
+			"label": "make: clean",
+			"detail": "./Makefile"
+		},
+		{
+			"type": "make",
+			"targetName": "reset",
+			"makeFileRelativePath": "Makefile",
+			"problemMatcher": [],
+			"label": "make: reset",
+			"detail": "./Makefile"
+		}
+	]
+}

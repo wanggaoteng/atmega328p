@@ -1,0 +1,3 @@
+COM5 .Couldn't open COM5: ¾Ü¾ø·ÃÎÊ¡£
+
+                                        COM6 .................                                        ATmega328P on COM6 at 61348 baud.

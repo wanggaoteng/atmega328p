@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "demo",
+            "includePath": [
+                "${env:AVR_TOOLCHAIN}\\avr\\include\\**",
+                "${env:AVR_TOOLCHAIN}\\ATmega_DFP\\include\\**",
+                "${workspaceFolder}"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "${env:AVR_TOOLCHAIN}\\avr\\include\\**",
+                    "${env:AVR_TOOLCHAIN}\\ATmega_DFP\\include\\**",
+                    "${workspaceFolder}"
+                ]
+            },
+            "defines": [
+                "F_CPU=8000000UL",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "${env:AVR_TOOLCHAIN}${pathSeparator}bin${pathSeparator}avr-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ],
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

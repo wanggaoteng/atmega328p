@@ -1,0 +1,5 @@
+COM5 .Couldn't open COM5: ¾Ü¾ø·ÃÎÊ¡£
+
+                                        COM6 .................                                        COM3 .Expecting break byte 0x00, but no bytes read.
+                                        COM4 .Expecting break byte 0x00, but no bytes read.
+                                        ATmega328P on COM6 at 61348 baud.
