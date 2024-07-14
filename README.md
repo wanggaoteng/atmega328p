@@ -19,7 +19,7 @@ Open the demo folder by vscode. At the left lower corner of MAKEFILE TASKS:
   
 ## Auxiliary files in demo
 DO NOT DELETE/MODIFY ANY OF THEM, otherwise the dwdebug.exe will not get the COM number automatically.
-  * serial.txt: store the COM number which the dwdebug generates.
+  * serial.txt: store the outputs which produced by dwdebug.
   * serial.bat: called by Makefile, it will analysis the serial.txt, and get the COM number for dwdebug.
 	
 ## Note
