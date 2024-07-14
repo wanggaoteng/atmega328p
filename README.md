@@ -20,7 +20,7 @@ Open the demo folder by vscode. At the left lower corner of MAKEFILE TASKS:
 ## Auxiliary files in demo
 DO NOT DELETE/MODIFY ANY OF THEM, otherwise the dwdebug.exe will not get the COM number automatically.
   * serial.txt: store the outputs which produced by dwdebug.
-  * serial.bat: called by Makefile, it will analysis the serial.txt, and get the COM number for dwdebug.
+  * serial.bat: called by Makefile, it will analysis the serial.txt, and returns the COM number which used for dwdebug.
 	
 ## Note
   * As the usb-uart converter chip is CH342K, please install the [chip driver](https://www.wch-ic.com/products/CH342.html?) to your PC.
